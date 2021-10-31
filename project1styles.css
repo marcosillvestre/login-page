@@ -1,0 +1,85 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ h1{
+     display: block;
+     margin: 128px auto 12px auto;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 32px;
+     line-height: 41px;
+     letter-spacing: 0.41px;
+     text-align: center;
+ }
+ .border{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 620px;
+    margin: 100px 10px 10px 10px;
+ }
+ 
+ .text1{
+     margin: 0 auto 102px auto;
+     display: block;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 20px;
+     line-height: 26px;
+     letter-spacing: 0.41px;
+     color: rgba(0, 0, 0, 0.5);
+     margin-bottom:102px ;
+     text-align: center;
+ }
+ 
+ 
+ .input{
+     display: block;
+     height: 48px;
+    width: 80%;
+     margin: 0 auto 12px auto;
+     border-radius: 6px;
+     border: none;
+     background-color:  #F2F2F7;
+     text-align: center;
+     
+ }
+ 
+ .input::placeholder{
+     padding: 14px
+ }
+ 
+ .forget {
+     margin-top: 17px;
+     text-align: right;
+     margin: 15px 10%;
+     color: #007AFF;
+     font-size: 16px;
+     line-height: 22px;
+     letter-spacing: -0,41px;
+
+ }
+ 
+ .button{ 
+ margin: 30px 10%;
+ width: 80%;
+ height: 40px;
+     background-color: #000000;
+     color: white;
+     
+ }
+ 
+     
+ .last-paragraph{
+     margin-top: 204px;
+     text-align: center;
+     font-size: 16px;
+     color: #7D7D7D;
+ }
+ .sign-up{
+     color:  #007AFF;
+ }
+ 
