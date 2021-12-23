@@ -19,7 +19,11 @@
     border: 1px solid black;
     border-radius: 5px;
     height: 620px;
-    margin: 100px 10px 10px 10px;
+    width: 50vw;
+    width: 50vh;
+    padding: 25px;
+    text-align: center;
+    margin: 30px auto;
  }
  
  .text1{
@@ -39,7 +43,7 @@
  .input{
      display: block;
      height: 48px;
-    width: 80%;
+    width: 50%;
      margin: 0 auto 12px auto;
      border-radius: 6px;
      border: none;
@@ -64,17 +68,18 @@
  }
  
  .button{ 
- margin: 30px 10%;
- width: 80%;
+ margin: 30px 30%;
+ width: 40%;
  height: 40px;
      background-color: #000000;
      color: white;
+     border-radius: 6px;
      
  }
  
      
  .last-paragraph{
-     margin-top: 204px;
+     margin-top: 60px;
      text-align: center;
      font-size: 16px;
      color: #7D7D7D;
@@ -82,4 +87,16 @@
  .sign-up{
      color:  #007AFF;
  }
- 
+ @media screen and (max-width: 768px) {
+     .border{
+        margin-top: 50px;
+        height: 700px;
+        width: 80vw;
+     }
+     .forget{
+         margin: 15px 1px;
+     }
+     .input{
+         width: 65%;
+     }
+ }
